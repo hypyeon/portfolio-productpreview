@@ -1,0 +1,42 @@
+@import './variables';
+
+body {
+    background-color: $cream;
+
+    .montserrat {
+        font-family: $Montserrat;
+        color: $darkGrayishBlue;
+    }
+
+    .fraunces {
+        font-family: $Fraunces;
+    }
+
+    .bigFont {
+        font-size: $fontSizeBig;
+        font-weight: 700;
+    }
+
+    .darkcyan {
+        color: $darkCyan;
+    }
+
+    .preview {
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .cart {
+        background-color: $darkCyan;
+        font-weight: 700;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}

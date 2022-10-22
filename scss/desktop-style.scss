@@ -1,0 +1,60 @@
+/*desktop width: 1440px*/
+
+@import './styles';
+@import './margins';
+
+body {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 900px;
+
+        .preview {
+            display: flex;
+            flex-direction: row;
+            width: 50%; 
+            
+        }
+        .mobile {
+            display: none;
+        }
+        .description {
+            padding: 0 36px;
+            margin: auto;
+            width: 82%;
+            align-items: center;
+            
+            .perfume-name {
+                font-size: 36px;
+                letter-spacing: 0.25px;
+            }
+
+            .p-b-12 {
+                padding-bottom: 12px;
+            }
+
+            .font-size-smaller {
+                font-size: smaller;
+                padding-top: 8px;
+            }
+
+            .cart:hover {
+                background-color: hsl(158, 36%, 21%);
+            }
+        }
+        .flex-direction-row {
+            display: flex;
+            flex-direction: row;
+        }
+        .align-items-center {
+            align-items: center;
+        }
+
+    }
+        .attribution {
+        font-size: 12px;
+        padding: 18px;
+        text-align: center;
+    }
+}

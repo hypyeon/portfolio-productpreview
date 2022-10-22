@@ -1,0 +1,15 @@
+$darkCyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%); 
+$veryDarkBlue: hsl(212, 21%, 14%);
+$darkGrayishBlue: hsl(228, 12%, 48%);
+
+$Montserrat: 'Montserrat', sans-serif;
+$Fraunces: 'Fraunces', serif;
+
+$fontSize: 14px; 
+$fontSizeBig: 32px;
+
+@mixin noMargin {
+    margin: 0;
+    padding: 0;
+}

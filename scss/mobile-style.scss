@@ -1,0 +1,32 @@
+/*mobile width: 375px*/
+
+@import './styles';
+@import './margins';
+
+body {
+    main {
+        .preview {
+            margin: 32px 8px 0 8px;
+            display: flex;
+            flex-direction: column;
+        }
+        .description {
+            padding: 28px;
+        }
+        .desktop {
+            display: none;
+        }
+        .flex-direction-row {
+            display: flex;
+            flex-direction: row;
+        }
+        .align-items-center {
+            align-items: center;
+        }
+    }
+    .attribution {
+        font-size: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+}
